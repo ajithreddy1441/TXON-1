@@ -1,0 +1,74 @@
+body{
+    background: url("img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    margin-right: 1vw;
+    font-size: 20px;
+}
+.logo{
+    margin-left: 1vw;
+    width: 7vw;
+    border-radius: 90px;
+}
+.menu{
+    margin-right: 5vw;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 3vw;
+}
+.menu a:hover{
+    background-color:#FBBC04;
+    color: black;
+    transition: 0.3s;
+}
+p{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.third{
+    display: block;
+    text-align: center;
+}
+.third a{
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 30px;
+    padding: 10px;
+    margin: 30px;
+    font-family: arial;
+    color: red;
+    background-color: yellow;
+}
+.third a:hover{
+    background-color:rgb(208, 208, 0);
+    color: black;
+    transition: 0.2s;
+}
+.icon{
+    font-size: 50px;
+    margin-top: 30px;
+    color: rgb(252, 251, 252);
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.icon a:hover{
+    background-color:yellow;
+    color: black;
+    transition: 0.3s;
+}
